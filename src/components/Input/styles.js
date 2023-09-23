@@ -15,4 +15,9 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.GRAY_100};
     font-size: 14px;
   }
+
+  svg {
+    position: absolute;
+    margin-left: 16px;
+  }
 `
