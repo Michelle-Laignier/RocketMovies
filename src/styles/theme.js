@@ -4,6 +4,7 @@ export default {
     BG_INPUT: "#262529",
     BG_TAG: "#312E38",
     TAG_COLOR: "#E5E5E5",
+    BG_SECTION: "rgba(255, 133, 155, 0.05)",
 
     BORDER: "#3E3B47",
 
@@ -11,6 +12,7 @@ export default {
     BLACK_1: "#1C1B1E",
 
     GRAY_100: "#948F99",
+    GRAY_200: "#999591",
     GRAY_900: "#312E38",
 
     PINK: "#FF859B",
