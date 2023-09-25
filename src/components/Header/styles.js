@@ -2,11 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
   align-items: center;
-  border-bottom: 1px solid ${({ theme }) => theme.COLORS.BORDER};
   display: flex;
   gap: 64px;
   height: 116px;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 auto;
 
   > h1 {
@@ -23,6 +22,14 @@ export const Container = styled.header`
 
   input {
     width: 45vw;
+  }
+
+  .line {
+    border-bottom: 1px solid ${({ theme }) => theme.COLORS.BORDER};
+    left: 0;
+    position: absolute;
+    top: 116px;
+    width: 100%;
   }
 `
 

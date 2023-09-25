@@ -14,6 +14,7 @@ export function Header() {
         </div>
         <img src="https://github.com/Michelle-Laignier.png" alt="Foto de perfil" />
       </Profile>
+      <div className='line'></div>
     </Container>
   )
 }

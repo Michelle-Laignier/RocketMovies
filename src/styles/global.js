@@ -13,6 +13,9 @@ export default createGlobalStyle`
     overflow-y: hidden;
 
     -webkit-font-smoothing: antialiased;
+
+    margin: 0 auto;
+    width: 80vw;
   }
 
   body, input, button, textarea {

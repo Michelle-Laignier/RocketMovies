@@ -5,6 +5,10 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 40% 60%;
   height: 100vh;
+
+  position: absolute;
+  right: 0;
+  left: 0;
 `
 
 export const Form = styled.form`
