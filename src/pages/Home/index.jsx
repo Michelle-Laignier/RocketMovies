@@ -10,12 +10,12 @@ export function Home() {
 		<Container>
       <Header/>
 
-				<div>
-					<h1>Meus filmes</h1>
-					<Button title="Adicionar filme" className="addBtn"></Button>
-				</div>
-      <Section>
+			<div>
+				<h1>Meus filmes</h1>
+				<Button title="Adicionar filme" className="addBtn"/>
+			</div>
 
+      <Section>
 				<a href="#">
 					<Note data={{
 						title: 'Interestellar', 
@@ -55,7 +55,6 @@ export function Home() {
 					/>
 				</a>
 			</Section>
-
     </Container>
   )
 }
