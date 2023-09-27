@@ -50,8 +50,13 @@ export const Form = styled.form`
     margin: 24px 0 42px;
   }
 
-  >button:last-child {
-    margin: 0;
+  > a {
+    align-items: center;
+    background-color: transparent;
+    color: ${({ theme }) => theme.COLORS.PINK};
+    display: flex;
+    gap: 8px;
+    justify-content: center;
   }
 `
 

@@ -32,6 +32,7 @@ export const Content = styled.div`
     align-items: center;
     display: flex;
     gap: 8px;
+    width: fit-content;
   }
 
   h1 {
@@ -61,10 +62,14 @@ export const Form = styled.form`
   > textarea {
     background-color: ${({ theme }) => theme.COLORS.BG_INPUT};
     border-radius: 10px;
-    color: ${({ theme }) => theme.COLORS.GRAY_100};
+    color: ${({ theme }) => theme.COLORS.WHITE_100};
     min-height: 274px;
     padding: 19px 16px;
     width: 100%;
+    
+    &::placeholder {
+      color: ${({ theme }) => theme.COLORS.GRAY_100};
+    }
   }
 
   section h1 {

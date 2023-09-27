@@ -50,8 +50,11 @@ export const Form = styled.form`
     margin: 24px 0 42px;
   }
 
-  >button:last-child {
+  > a {
+    background-color: transparent;
+    color: ${({ theme }) => theme.COLORS.PINK};
     margin: 0;
+    text-align: center;
   }
 `
 

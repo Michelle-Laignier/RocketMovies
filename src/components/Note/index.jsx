@@ -8,7 +8,7 @@ export function Note({ data, ...rest }) {
     <Container {...rest}>
       <h2>{data.title}</h2>
 
-      <Rating name="half-rating" defaultValue={2.5} precision={0.5} className='stars' />
+      <Rating name="half-rating" defaultValue={3.5} precision={0.5} className='stars' readOnly />
       
       <p>{data.text}</p>
 

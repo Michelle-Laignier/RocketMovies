@@ -1,5 +1,7 @@
 import { Container, Profile } from './styles'
 
+import { Link } from 'react-router-dom'
+
 import { Input } from '../Input'
 
 export function Header() {
@@ -7,10 +9,10 @@ export function Header() {
     <Container>
       <h1>RocketMovies</h1>
       <Input placeholder="Pesquisar pelo título"/>
-      <Profile>
+      <Profile to="/profile">
         <div>
           <h2>Michelle Laignier</h2>
-          <p>sair</p>
+          <Link to="/login">sair</Link>
         </div>
         <img src="https://github.com/Michelle-Laignier.png" alt="Foto de perfil" />
       </Profile>

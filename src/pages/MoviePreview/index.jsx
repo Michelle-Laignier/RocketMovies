@@ -1,5 +1,7 @@
 import { Container, Content } from "./styles";
 
+import { Link } from 'react-router-dom'
+
 import { FiArrowLeft } from 'react-icons/fi'
 import { IoMdTime } from 'react-icons/io'
 import Rating from '@mui/material/Rating';
@@ -13,7 +15,7 @@ export function MoviePreview() {
       <Header/>
 
       <Content>
-        <a href="#"> <FiArrowLeft/> Voltar </a>
+        <Link to="/"> <FiArrowLeft/> Voltar </Link>
 
         <div className="title-div">
           <h1>Interestellar</h1>

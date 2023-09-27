@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import { Link } from 'react-router-dom'
+
 export const Container = styled.header`
   align-items: center;
   display: flex;
@@ -15,11 +17,6 @@ export const Container = styled.header`
     transition: 0.3s;
   }
 
-  > h1:hover {
-    cursor: pointer;
-    filter: brightness(0.8);
-  }
-
   input {
     width: 45vw;
   }
@@ -33,7 +30,7 @@ export const Container = styled.header`
   }
 `
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
   align-items: center;
   display: flex;
   gap: 9px;
@@ -48,7 +45,7 @@ export const Profile = styled.div`
       transition: 0.3s;
     }
 
-    p {
+    a {
       color: ${({ theme }) => theme.COLORS.GRAY_100};
       font-size: 14px;
       font-weight: 400;

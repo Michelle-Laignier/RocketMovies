@@ -17,7 +17,8 @@ export const Container = styled.div`
     
     > section {
         height: 60vh;
-        margin: 0 auto 58px;
+        margin: 0 auto;
+        padding-bottom: 58px;
 
         overflow-y: auto;
         &::-webkit-scrollbar {
