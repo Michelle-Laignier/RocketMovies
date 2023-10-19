@@ -41,7 +41,7 @@ export const Form = styled.form`
     gap: 8px;
 
     input {
-      padding: 18px 55px;
+      padding: 18px 22px 18px 55px;
       width: 100%;
     }
   }

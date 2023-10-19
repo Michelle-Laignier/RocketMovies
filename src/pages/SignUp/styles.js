@@ -41,7 +41,7 @@ export const Form = styled.form`
     gap: 8px;
 
     input {
-      padding: 18px 55px;
+      padding: 18px 22px 18px 55px;
       width: 100%;
     }
   }
@@ -50,13 +50,14 @@ export const Form = styled.form`
     margin: 24px 0 42px;
   }
 
-  > a {
+  > button:last-child {
     align-items: center;
     background-color: transparent;
     color: ${({ theme }) => theme.COLORS.PINK};
     display: flex;
     gap: 8px;
     justify-content: center;
+    margin: 0 auto;
   }
 `
 

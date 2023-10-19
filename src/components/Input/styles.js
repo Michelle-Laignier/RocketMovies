@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   align-items: center;
   display: flex;
+  width: 100%;
 
   > input {
     background-color: ${({ theme }) => theme.COLORS.BG_INPUT};

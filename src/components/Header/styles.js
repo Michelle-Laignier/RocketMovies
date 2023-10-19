@@ -46,6 +46,7 @@ export const Profile = styled(Link)`
     }
 
     a {
+      background: none;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
       font-size: 14px;
       font-weight: 400;

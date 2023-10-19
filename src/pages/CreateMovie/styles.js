@@ -52,13 +52,11 @@ export const Form = styled.form`
     display: flex;
     gap: 40px;
 
+    input {
+      width: 100%;
+    }
   }
   
-  .cvaxea,
-  input {
-    width: 100%;
-  }
-
   > textarea {
     background-color: ${({ theme }) => theme.COLORS.BG_INPUT};
     border-radius: 10px;
